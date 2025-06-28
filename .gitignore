@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#Ignore data folders and sensitive file types
+data/
+*.csv
+*.xlsx
+*.json
+*.zip
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+
+.vscode/
+
+*.log
+logs/
+.cache/
+
+**/AppData/Local/Temp/
+results/
